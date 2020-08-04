@@ -66,10 +66,10 @@
 
 We realised that training custom object detectors can be hard and really tiring. Creators haven't ever taken the step to making custom object detectors easy for all. YOLO-AUTO is an evolving libarary. We provide two liner code to create custom object detectors
 
-Why?
-* Your
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+About Yolo-Auto
+* It takes 2 lines to train
+* We navigate you through training. Get to know about all the steps through training
+* We are expanding to YOLOv4 and SSD object detectors.
 
 
 ### Built With/On
