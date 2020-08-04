@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: yolo-auto
+Version: 0.0.2
+Summary: Train custom YOLOv3 object detectors in two lines
+Home-page: https://github.com/pandeajrun242
+Author: Arjun Pandey
+Author-email: apandey@jpischool.com
+License: UNKNOWN
+Description: # yolo_auto
+        
+        
+        What is yolo_auto? <br>
+        <br>
+        A library that allows you to train custom yolv3 object detectors in one line!
+        <br>
+        How does yolo_auto work?<br>
+        <br>
+        
+        Syntax = <br>
+        
+        x = Yolov3Train(Path to Labels, Path To images,number of classes, classnames in an array, Path to Working Directory, Subdivisions=8,batches-16, Image size=608) 	<br>
+        x.train()<br><br>
+        
+        Sample:
+        
+        x = Yolov3Train("/Users/arjunpandey/Desktop/AI-Stuff/newlib/data/labels","/Users/arjunpandey/Desktop/AI-Stuff/newlib/data/images",classes,classnames,"/Users/arjunpandey/Desktop/AI-Stuff/newlib/") <br>
+        x.train()<br>
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+yolo_auto/__init__.py
+yolo_auto/yolov3auto.py
+yolo_auto.egg-info/PKG-INFO
+yolo_auto.egg-info/SOURCES.txt
+yolo_auto.egg-info/dependency_links.txt
+yolo_auto.egg-info/requires.txt
+yolo_auto.egg-info/top_level.txt
