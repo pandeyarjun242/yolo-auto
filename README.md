@@ -112,9 +112,22 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 from yolo_auto.yolov3auto import Yolov3Train
 
 x = Yolov3Train("/Users/arjunpandey/Desktop/AI-Stuff/test/labels/","/Users/arjunpandey/Desktop/AI-Stuff/test/images/",1,['LicensePlate'],"/Users/arjunpandey/Desktop/AI-Stuff/test/")
+
 x.train()
 ```
 
+Basic Template Code:
+(O) = Optional
+
+
+
+```sh
+from yolo_auto.yolov3auto import Yolov3Train
+
+x = Yolov3Train('Path to labels', 'path to images,No. classes, Class Names array, 'Path to Working Dir.', No.subdivisions(O), No.batches(O), ImageSize(O))
+
+x.train()
+```
 
 
 
